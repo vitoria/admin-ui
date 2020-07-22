@@ -25,7 +25,8 @@
     "build-storybook": "build-storybook",
     "release:patch": "releasy patch --stable --notes",
     "release:minor": "releasy minor --stable --notes",
-    "release:major": "releasy major --stable --notes"
+    "release:major": "releasy major --stable --notes",
+    "publish": "npm publish --access=public"
   },
   "sideEffects": false,
   "peerDependencies": {
