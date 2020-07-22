@@ -22,7 +22,10 @@
     "lint": "eslint src/ --ext .tsx,.ts",
     "prepare": "tsdx build",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "release:patch": "releasy patch --stable --notes",
+    "release:minor": "releasy minor --stable --notes",
+    "release:major": "releasy major --stable --notes"
   },
   "sideEffects": false,
   "peerDependencies": {
@@ -46,6 +49,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
+    "releasy": "^1.10.2",
     "ts-loader": "^8.0.1",
     "tsdx": "^0.13.2",
     "typescript": "^3.9.6"
