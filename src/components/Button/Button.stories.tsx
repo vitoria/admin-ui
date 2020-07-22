@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { Button } from '../src'
-import { Provider } from './example'
+import Provider from '../ThemeProvider'
+import Button from '.'
 
 export default {
   title: 'Button',

@@ -1,26 +1,27 @@
-# admin-ui
+# VTEX Admin UI
 
 > VTEX admin component library
 
-[![NPM](https://img.shields.io/npm/v/admin-ui.svg)](https://www.npmjs.com/package/admin-ui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/admin-ui.svg)](https://www.npmjs.com/package/@vtex/admin-ui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-yarn add admin-ui
+yarn add @vtex/admin-ui
 ```
 
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
+import React from 'react'
+import { Button }  from '@vtex/admin-ui'
 
-import MyComponent from 'admin-ui'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+function Example {
+  return (
+    <Button mx={2} variant="primary">
+      Primary Button
+    </Button>
+  )
 }
 ```
 
