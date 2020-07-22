@@ -11,8 +11,21 @@ export default {
 export const Themes = () => {
   return (
     <Provider>
-      <Button bg="primary">Primary Button</Button>
-      <Button bg="secondary">Seconday Button</Button>
+      <Button m={2} variant="primary">
+        Primary Button
+      </Button>
+      <Button m={2} variant="secondary">
+        Secondary Button
+      </Button>
+      <Button m={2} variant="success">
+        Success Button
+      </Button>
+      <Button m={2} variant="warning">
+        Warning Button
+      </Button>
+      <Button m={2} variant="danger">
+        Danger Button
+      </Button>
     </Provider>
   )
 }
